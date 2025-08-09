@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(145, 243, 243);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: aqua;
+}
+
+img{
+    width: 100px;
+}
+
+.container1{
+    font-family: cursive;
+}
+
+.user{
+    background-color: chartreuse;
+    color: black;
+    font:bold;
+}
+
+.weather{
+    background-color: skyblue;
+    font-style: italic;
+    font: bolder;
+}
+
+.dictionary{
+    background-color: khaki;
+}
+
+@media (max-width: 650px) {
+    .user{
+        background-color: cadetblue;
+    }
+    .weather{
+        background-color: darkblue;
+    }
+    .dictionary{
+        background-color: darkturquoise;
+    }
+}
